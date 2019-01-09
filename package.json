@@ -4,13 +4,17 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "start": "webpack-dev-server --content-base src --mode development --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Takashi Y",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
